@@ -850,6 +850,8 @@ aplayerInject:
   enable: false
   per_page: true
 
+aplayer:
+  asset_inject: false
 # Snackbar (Toast Notification 彈窗)
 # https://github.com/polonel/SnackBar
 # position 彈窗位置

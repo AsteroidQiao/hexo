@@ -7,9 +7,9 @@ menu:
     归档: /archives/ || fa fa-folder-open
   生活 || fas fa-list:
     分享: /shuoshuo/ || fa fa-comments-o
-    相册: /photos/ || fa fa-camera-retro
+    相册: /img/ || fa fa-camera-retro
     音乐: /music/ || fa fa-music
-    影视: /movies/ || fas fa-video
+    影视: /video/ || fas fa-video
   友链: /links/ || fa fa-link
   留言板: /comment/ || fa fa-paper-plane
   #留言板: /messageboard/ || fa fa-paper-plane
@@ -220,7 +220,7 @@ canvas_nest:
 
 
 
-# wordcount (字數統計)
+# wordcount (字数统计)
 wordcount:
   enable: true
   post_wordcount: true
@@ -255,7 +255,7 @@ runtimeshow:
 error_404:
   enable: true
   subtitle: "页面未找到"
-  background: /img/404.jpg
+  background: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1698691762397404.jpg
 error_img:
 #  flink: /img/friend_404.gif
   post_page: /img/404.jpg
@@ -355,10 +355,8 @@ valine:
 # 懒加载 加载动画
 preloader:
   enable: true
-  # source
-  # 1. fullpage-loading
-  # 2. pace (progress bar)
-  source: 2
-  # pace theme (see https://codebyzach.github.io/pace/)
+  source: 1
   pace_css_url:
+
+photofigcaption: true
 
