@@ -351,3 +351,14 @@ valine:
   bg: # valine background
   visitor: false
   option:
+
+# 懒加载 加载动画
+preloader:
+  enable: true
+  # source
+  # 1. fullpage-loading
+  # 2. pace (progress bar)
+  source: 2
+  # pace theme (see https://codebyzach.github.io/pace/)
+  pace_css_url:
+
