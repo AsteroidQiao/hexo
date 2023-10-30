@@ -1,0 +1,333 @@
+# 导航菜单
+menu:
+  主页: / || fas fa-home
+  博文 || fa fa-graduation-cap:
+    分类: /categories/ || fa fa-archive
+    标签: /tags/ || fa fa-tags
+    归档: /archives/ || fa fa-folder-open
+  生活 || fas fa-list:
+    分享: /shuoshuo/ || fa fa-comments-o
+    相册: /photos/ || fa fa-camera-retro
+    音乐: /music/ || fa fa-music
+    影视: /movies/ || fas fa-video
+  友链: /links/ || fa fa-link
+  留言板: /comment/ || fa fa-paper-plane
+  #留言板: /messageboard/ || fa fa-paper-plane
+  关于笔者: /about/ || fas fa-heart
+
+# 代码块显示设置
+highlight_theme: mac
+highlight_copy: true
+highlight_shrink: true
+code_word_wrap: true
+highlight_height_limit: 24 # unit: px
+# Local search 搜索
+local_search:
+  enable: true
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "没有找到与： ${query} 相关内容" # 如果没有查到内容相关内容显示
+
+
+# the subtitle on homepage (主頁subtitle)
+subtitle:
+  enable: true
+  # Typewriter Effect (开启打字效果)
+  effect: true
+  # loop (循环)
+  loop: true
+  # source: 1  調用搏天api的隨機語錄（簡體）
+  # source: 2  調用一言網的一句話（簡體）
+  # source: 3  調用一句網（簡體）
+  # source: 4  調用今日詩詞（簡體）
+  # subtitle 會先顯示 source , 再顯示 sub 的內容
+  source: 1
+  # 如果关闭打字效果，subtitle只会现示sub的第一行文字
+#  sub:
+#    - 你在抱怨什么呢
+#    - 为明天到来的事，说人生像是没有意义
+#    - 没有选择会是唯一的路
+#    - 这不是你自己的问题，人终归要好好去生活
+
+favicon: img/icon.png
+avatar:
+  img: img/avatar.jpg #图片路径
+  effect: false #头像会一直转圈
+# 主页封面图片
+index_img: https://www.loliapi.com/acg/
+# 文章详情页的顶部图片
+default_top_img: https://api.likepoems.com/img/pc/
+##归档子标签页图片
+#archive_img: img/smile.jpg
+##tag页（标签页）
+#tag_img: img/smile.jpg
+##category页
+#category_img: img/smile.jpg
+cover:
+  index_enable: true #  是否展示文章封面
+  aside_enable: true
+  archives_enable: true
+  position: both # 封面展示的位置 left/right/both
+# Replace Broken Images (替換無法顯示的圖片)
+#发大图片
+medium_zoom: false
+fancybox: true
+
+#copy:
+#  enable: true # 是否开启网站复制权限
+#  copyright:  # 复制的内容后面加上版权信息
+#    enable: false  # 是否开启复制版权信息添加
+#    limit_count: 50 # 字数限制，当复制文字大于这个字数限制时
+#post_copyright:
+#  enable: true
+#  decode: true
+#  license: CC BY-NC-SA 4.0
+#  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+## Related Articles
+#related_post:
+#  enable: true
+#  limit: 6 # Number of posts displayed
+#  date_type: created # or created or updated 文章日期顯示創建日或者更新日
+
+# reward
+reward:
+  enable: true
+  QR_code:
+    - img: /img/WX.png
+      link:
+      text: 微信
+
+    - img: /img/ZFB.png
+      link:
+      text: 支付宝
+
+    - img: /img/QQ.png
+      link:
+      text: QQ
+
+##侧边栏样式
+#aside:
+#  enable: true
+#  hide: false
+#  button: true
+#  mobile: true # display on mobile
+#  position: right # left or right
+
+#个人信息
+social:
+  fab fa-github: https://github.com/AsteroidQiao || Github || "#111111"
+  fab fa-git-alt:  https://gitee.com/AsteroidQiao || Gitee || "#f57c00"
+  fa-solid fa-c: https://blog.csdn.net/qiaoyulinyi || CSDN || "#f44336"
+  fa-solid fa-blog: https://www.cnblogs.com/asteroidqiao/ || blog || "#6b86b3"
+  fa-solid fa-envelope: mailto:2551845461@qq.com || Email || "#5c6bc0"
+
+post_meta:
+  page:
+    date_type: created # created or updated or both 主页文章日期是创建日或者更新日或都显示
+    date_format: date # date/relative 显示日期还是相对日期
+    categories: true # true or false 主页是否显示分类
+    tags: true # true or false 主页是否显示标签
+    label: true # true or false 显示描述性文字
+  post:
+    date_type: created # created or updated or both 文章页日期是创建日或者更新日或都显示
+    date_format: date # date/relative 显示日期还是相对日期
+    categories: true # true or false 文章页是否显示分类
+    tags: true # true or false 文章页是否显示标签
+    label: true # true or false 显示描述性文字
+
+## toc (目錄)
+#toc:
+#  post: true
+#  page: false
+#  number: false
+#  expand: true # 是否展开
+#  style_simple: false # for post
+#  scroll_percent: true
+
+## Displays outdated notice for a post (文章过期提醒)
+#noticeOutdate:
+#  enable: true
+#  style: flat # style: simple/flat
+#  limit_day: 365 # When will it be shown
+#  position: top # position: top/bottom
+#  message_prev: It has been
+#  message_next: days since the last update, the content of the article may be outdated.
+
+#文章编辑
+post_edit:
+  enable: true
+  url: https://github.com/AsteroidQiao/hexo/tree/master/source/_posts
+
+# Typewriter Effect (打字效果)
+# https://github.com/disjukr/activate-power-mode
+activate_power_mode:
+  enable: true
+  colorful: true # open particle animation (冒光特效)
+  shake: true #  open shake (抖动特效)
+  mobile: false
+
+# Mouse click effects: fireworks (鼠标点击效果:萤火特效)
+fireworks:
+  enable: false
+  zIndex: 9999 # -1 or 9999
+  mobile: false
+# Mouse click effects: Heart symbol (鼠标点击效果: 爱心)
+click_heart:
+  enable: true
+  mobile: false
+# Mouse click effects: words (鼠标点击效果: 文字)
+ClickShowText:
+  enable: false
+  text:
+    - 富强
+    - 民主
+    - 文明
+    - 和谐
+    - 平等
+    - 公正
+    - 法治
+    - 爱国
+    - 敬业
+    - 诚信
+    - 友善
+  fontSize: 15px
+  random: true
+  mobile: true
+
+# Background effects (背景特效)
+canvas_ribbon:
+  enable: false
+  size: 150
+  alpha: 0.6
+  zIndex: -1
+  click_to_change: false
+  mobile: false
+
+# Fluttering Ribbon (动态彩带)
+canvas_fluttering_ribbon:
+  enable: false
+  mobile: false
+
+#星空特效
+canvas_nest:
+  enable: true
+  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  opacity: 0.7 # the opacity of line (0~1), default: 0.5.
+  zIndex: -1 # z-index property of the background, default: -1.
+  count: 99 # the number of lines, default: 99.
+  mobile: false
+
+
+
+# wordcount (字數統計)
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+
+#  (分享功能)addThis、sharejs、addtoany三个选一个开启
+addThis:
+  enable: false
+  pubid:  #访问 AddThis 官网, 找到你的 pub-id
+# Share.js
+# https://github.com/overtrue/share.js
+sharejs:
+  enable: true
+  sites: facebook,twitter,wechat,weibo,qq #想要显示的内容
+# AddToAny
+# https://www.addtoany.com/
+addtoany:
+  enable: false
+  item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
+
+card_tags color: true
+
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true
+runtimeshow:
+  enable: true
+  publish_date: 7/11/2019 00:00:00
+# A simple 404 page
+error_404:
+  enable: true
+  subtitle: "页面未找到"
+  background: /img/404.jpg
+error_img:
+#  flink: /img/friend_404.gif
+  post_page: /img/404.jpg
+translate:
+  enable: true
+  # 默认按钮显示文字(网站是简体，应设置为'default: 繁')
+  default: 繁
+  #网站默认语言，1: 繁体中文, 2: 简体中文
+  defaultEncoding: 2
+  #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+  translateDelay: 0
+  #当文字是简体时，按钮显示的文字
+  msgToTraditionalChinese: "繁"
+  #当文字是繁体时，按钮显示的文字
+  msgToSimplifiedChinese: "简"
+
+# 在侧边栏显示最新评论板块
+newest_comments:
+  enable: false
+  sort_order: # Don't modify the setting unless you know how it works
+  limit: 6
+  storage: 10 # unit: mins, save data to localStorage
+  avatar: true
+
+footer:
+  owner:
+    enable: true
+    since: 2019
+footer_bg: true
+# 美化页面显示
+beautify:
+  enable: true
+  field: site # site/post
+  title-prefix-icon: '\f0c1'
+  title-prefix-icon-color: "#F47466"
+# (中英文之间添加空格)
+pangu:
+  enable: true
+  # post(只在文章页生效)和site(全站生效)
+  field: site # site/post
+
+# Inject the css and script (aplayer/meting)
+aplayerInject:
+  enable: true
+  per_page: true
+
+inject:
+  head:
+  bottom:
+    - <div class="aplayer no-destroy"
+    - data-id="7767724632"
+    - data-server="netease"
+    - data-type="playlist"
+    - ata-order="random"
+    - data-fixed="true"
+    - data-listfolded="true"
+    - data-theme="#63bbd0"
+    - data-autoplay="true"> </div>
+
+
+
+#当用户点击链接，通过ajax更新页面需要变化的部分，然后使用HTML5的pushState修改浏览器的URL地址。
+#这样可以不用重复加载相同的资源（css/js）， 从而提升网页的加载速度。
+pjax:
+  enable: true
+  exclude:
+    - /music/
+    - /no-pjax/
+
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - ''
+    - ''
