@@ -7,8 +7,9 @@ menu:
     归档: /archives/ || fa fa-folder-open
   空间 || fas fa-list:
     说说: /shuoshuo/ || fa-regular fa-comment-dots
+    音乐: /music/ || fas fa-music
     相册: /imgs/ || fa-regular fa-image
-    影视: /video/ || fas fa-video
+    影视: /movies/ || fas fa-video
   友链: /link/ || fa fa-link
   留言板: /comment/ || fa fa-paper-plane
   #留言板: /messageboard/ || fa fa-paper-plane
@@ -307,7 +308,7 @@ inject:
   head:
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4308968_80bv1i0prcd.css">
     - <meta name="referrer" content="no-referrer">
-    - <link rel="stylesheet" href="themes/butterfly/source/css/mouse.css">
+    - <link rel="stylesheet" href="/themes/butterfly/source/css/custom/mouse.css">
   #    - <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
 #    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css">
   bottom:
@@ -376,28 +377,3 @@ photofigcaption: true
 #  option:
 #  front_matter:
 
-douban:
-  user: 275624377
-  builtin: false
-  book:
-    title: 'This is my book title'
-    quote: 'This is my book quote'
-    meta: true
-    comments: true
-    top_img: https://cdn.jsdelivr.net/gh/Amnesia-f/CDN/img.jpg
-    aside: true
-  movie:
-    title: 'This is my movie title'
-    quote: 'This is my movie quote'
-    meta: true
-    comments: true
-    top_img: https://cdn.jsdelivr.net/gh/Amnesia-f/CDN/img.jpg
-    aside: true
-  game:
-    title: 'This is my game title'
-    quote: 'This is my game quote'
-    meta: true
-    comments: true
-    top_img: https://cdn.jsdelivr.net/gh/Amnesia-f/CDN/img.jpg
-    aside: true
-  timeout: 10000
