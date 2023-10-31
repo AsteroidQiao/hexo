@@ -6,8 +6,8 @@ menu:
     标签: /tags/ || fa fa-tags
     归档: /archives/ || fa fa-folder-open
   娱乐 || fas fa-list:
-    说说: /shuoshuo/ || fa-regular fa-calendar
-    相册: /imgs/ || fa fa-camera-retro
+    说说: /shuoshuo/ || fa-regular fa-comment-dots
+    相册: /imgs/ || fa-regular fa-image
     影视: /video/ || fas fa-video
   友链: /link/ || fa fa-link
   留言板: /comment/ || fa fa-paper-plane
