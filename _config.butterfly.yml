@@ -16,12 +16,14 @@ menu:
   关于笔者: /about/ || fas fa-heart
 
 # 代码块显示设置
-#highlight_theme: mac  #  darker / pale night / light / ocean / mac / mac light / false 代码主题
-#highlight_copy: true # 复制按钮
-#highlight_lang: true # 是否显示代码语言
-#highlight_shrink: true # true: 代码块默认不展开 / false: 代码块默认展开 | none: 展开并隐藏折叠按钮
-#code_word_wrap: true #代码自动换行，关闭滚动条
-#highlight_height_limit: 300 # unit: px
+
+highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false 代码主题
+highlight_copy: true # 复制按钮
+highlight_lang: true # 是否显示代码语言
+highlight_shrink: false # true: 代码块默认不展开 / false: 代码块默认展开 | none: 展开并隐藏折叠按钮
+highlight_height_limit: false # unit: px
+code_word_wrap: true #代码自动换行，关闭滚动条
+
 # Local search 搜索
 local_search:
   enable: true

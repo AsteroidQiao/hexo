@@ -43,16 +43,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-#  修改前
-#highlight:
-#  enable: true
-#  line_number: true
-#  auto_detect: false
-#  tab_replace: ''
-#  wrap: true
-#  hljs: false
 
-#  修改后
 highlight:
   enable: false
   line_number: false
