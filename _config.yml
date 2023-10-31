@@ -57,6 +57,11 @@ highlight:
   enable: false
   line_number: false
   auto_detect: false
+
+lazyload:
+  enable: true
+  loadingImg: /img/1.gif
+
 #prismjs:
 #  enable: false
 #  preprocess: true
@@ -114,6 +119,4 @@ deploy:
   repo: 'https://github.com/runbrick/javier-blog.git'
   branch: 'master'
 
-lazyload:
-  enable: true
-  loadingImg:
+

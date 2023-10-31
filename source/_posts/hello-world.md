@@ -1,5 +1,8 @@
 ---
 title: Hello World
+date: 2019-10-31 03:03:39
+tags: 其他
+categories:
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
@@ -37,16 +40,3 @@ $ hexo deploy
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
-```java
-//1.创建一个类实现Runnable接口
-public class RunnableImpl implements Runnable {
-    //2.重写Runnable接口中的run方法，设置线程任务
-    @Override
-    public void run() {
-        for (int i = 0; i < 20; i++) {
-            System.out.println(Thread.currentThread().getName()+"-->"+i);
-        }
-    }
-}
-
-```
