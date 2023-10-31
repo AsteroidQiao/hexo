@@ -57,9 +57,6 @@ highlight:
   enable: false
   line_number: false
   auto_detect: false
-  tab_replace: ''
-  hljs: false
-
 #prismjs:
 #  enable: false
 #  preprocess: true

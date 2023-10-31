@@ -7,7 +7,7 @@ menu:
     归档: /archives/ || fa fa-folder-open
   生活 || fas fa-list:
     分享: /share/ || iconfont icon-life
-    相册: /img/ || fa fa-camera-retro
+    相册: /imgs/ || fa fa-camera-retro
     音乐: /music/ || fa fa-music
     影视: /video/ || fas fa-video
   友链: /link/ || fa fa-link
@@ -16,11 +16,12 @@ menu:
   关于笔者: /about/ || fas fa-heart
 
 # 代码块显示设置
-highlight_theme: mac
-highlight_copy: true
-highlight_shrink: true
-code_word_wrap: true
-highlight_height_limit: 24 # unit: px
+highlight_theme: mac  #  darker / pale night / light / ocean / mac / mac light / false 代码主题
+highlight_copy: true # 复制按钮
+highlight_lang: true # 是否显示代码语言
+highlight_shrink: true # true: 代码块默认不展开 / false: 代码块默认展开 | none: 展开并隐藏折叠按钮
+code_word_wrap: true #代码自动换行，关闭滚动条
+highlight_height_limit: 300 # unit: px
 # Local search 搜索
 local_search:
   enable: true
