@@ -360,7 +360,7 @@ livere:
   uid: MTAyMC81OTE0NS8zNTYwNw==
 # 懒加载 加载动画
 preloader:
-  enable: true
+  enable: false
   source: 1
   pace_css_url: /img/1.gif
 
