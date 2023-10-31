@@ -60,7 +60,7 @@ highlight:
 
 lazyload:
   enable: true
-  loadingImg: /img/13.gif
+  loadingImg: /img/19.gif
   isSPA: true
 #prismjs:
 #  enable: false
