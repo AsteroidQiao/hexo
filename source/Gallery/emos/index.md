@@ -3,7 +3,7 @@ title:
 date: 2019-10-31 09:32:24
 ---
 
-{% gallery true,30,10 %}
+{% gallery true,20,10 %}
 ![flower3](https://gitee.com/AsteroidQiao/library-management-system/raw/master/emo/flower3.jpg)
 
 ![flower4](https://gitee.com/AsteroidQiao/library-management-system/raw/master/emo/flower4.jpg)
