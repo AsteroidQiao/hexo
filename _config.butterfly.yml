@@ -164,8 +164,8 @@ post_edit:
 activate_power_mode:
   enable: true
   colorful: true # open particle animation (冒光特效)
-  shake: true #  open shake (抖动特效)
-  mobile: false
+  shake: false #  open shake (抖动特效)
+  mobile: true
 
 # Mouse click effects: fireworks (鼠标点击效果:萤火特效)
 fireworks:
@@ -304,6 +304,7 @@ aplayerInject:
 
 inject:
   head:
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4308968_80bv1i0prcd.css">
   bottom:
     - <div class="aplayer no-destroy"
     - data-id="7767724632"
@@ -313,7 +314,7 @@ inject:
     - data-fixed="true"
     - data-listfolded="true"
     - data-theme="#63bbd0"
-    - data-autoplay="true"> </div>
+    - data-autoplay="false"> </div>
 
 
 
@@ -359,4 +360,10 @@ preloader:
   pace_css_url:
 
 photofigcaption: true
-
+  
+  
+  <div class="gallery-group-main">
+  {% galleryGroup '壁纸' '收藏的一些壁纸' '/Gallery/wallpaper' https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png %}
+  {% galleryGroup '漫威' '关于漫威的图片' '/Gallery/marvel' https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg %}
+  {% galleryGroup 'OH MY GIRL' '关于OH MY GIRL的图片' '/Gallery/ohmygirl' https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg %}
+  </div>
