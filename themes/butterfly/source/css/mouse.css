@@ -1,0 +1,7 @@
+body {
+    cursor: url("source/img/mouse/Arrow.gif"), default;
+}
+
+button, a {
+    cursor: url("source/img/mouse/Arrow.gif"), pointer;
+}

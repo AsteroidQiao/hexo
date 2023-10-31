@@ -1,7 +1,7 @@
 # 导航菜单
 menu:
   主页: / || fas fa-home
-  目录 || fa-fw fas fa-book:
+  文章 || fa-fw fas fa-book:
     分类: /categories/ || fa fa-archive
     标签: /tags/ || fa fa-tags
     归档: /archives/ || fa fa-folder-open
@@ -307,7 +307,8 @@ inject:
   head:
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4308968_80bv1i0prcd.css">
     - <meta name="referrer" content="no-referrer">
-#    - <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+    - <link rel="stylesheet" href="themes/butterfly/source/css/mouse.css">
+  #    - <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
 #    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css">
   bottom:
     - <div class="aplayer no-destroy"
@@ -374,3 +375,29 @@ photofigcaption: true
 #  js:
 #  option:
 #  front_matter:
+
+douban:
+  user: 275624377
+  builtin: false
+  book:
+    title: 'This is my book title'
+    quote: 'This is my book quote'
+    meta: true
+    comments: true
+    top_img: https://cdn.jsdelivr.net/gh/Amnesia-f/CDN/img.jpg
+    aside: true
+  movie:
+    title: 'This is my movie title'
+    quote: 'This is my movie quote'
+    meta: true
+    comments: true
+    top_img: https://cdn.jsdelivr.net/gh/Amnesia-f/CDN/img.jpg
+    aside: true
+  game:
+    title: 'This is my game title'
+    quote: 'This is my game quote'
+    meta: true
+    comments: true
+    top_img: https://cdn.jsdelivr.net/gh/Amnesia-f/CDN/img.jpg
+    aside: true
+  timeout: 10000

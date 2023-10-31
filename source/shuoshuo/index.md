@@ -5,32 +5,23 @@ comments: 'false'
 date: 2029-1-24 17:09:10
 ---
 
-<!-- 引用 artitalk -->
 <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
-<!-- 存放说说的容器 -->
+
+<!-- 存放说说的容器 
+    appId: 'H5uDbNpEu1fJcVIlpdRDWLEw-gzGzoHsz',
+    appKey: 'pXjk8QIq7J8jth475GTpYTHl',
+    serverURL: 'https://hexo.asteroidrocket.top/',
+-->
+
+<!-- 引用 artitalk -->
 <div id="artitalk_main"></div>
 <script>
 new Artitalk({
     appId: '1Ao0DXuUM7IhIjk87ljhWZt8-MdYXbMMI',
     appKey: '8YfzySzsghm2Pyiy142iADCa',
-    color1: '#64b5f6',
-    color2: '#66bb6a',
-    color3: '#f9a825',
+    color3: '#f8f9fa',
     pageSize: 6,
-    atEmoji: {
-                  baiyan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png",
-                  bishi: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png",
-                  bizui: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bizui.png",
-                  chan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/chan.png",
-                  daku: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/daku.png",
-                  dalao: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dalao.png",
-                  dalian: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dalian.png",
-                  dianzan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dianzan.png",
-                  doge: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/doge.png",
-                  facai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/facai.png",
-                  fadai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fadai.png",
-                  fanu: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fanu.png",
-            },
+    shuoPla: "未登录不能评论",
 })
 </script>
 
