@@ -6,7 +6,7 @@ menu:
     标签: /tags/ || fa fa-tags
     归档: /archives/ || fa fa-folder-open
   生活 || fas fa-list:
-    分享: /share/ || iconfont icon-life
+    分享: /share/ || fa-regular fa-calendar
     相册: /imgs/ || fa fa-camera-retro
     音乐: /music/ || fa fa-music
     影视: /video/ || fas fa-video
@@ -16,12 +16,12 @@ menu:
   关于笔者: /about/ || fas fa-heart
 
 # 代码块显示设置
-highlight_theme: mac  #  darker / pale night / light / ocean / mac / mac light / false 代码主题
-highlight_copy: true # 复制按钮
-highlight_lang: true # 是否显示代码语言
-highlight_shrink: true # true: 代码块默认不展开 / false: 代码块默认展开 | none: 展开并隐藏折叠按钮
-code_word_wrap: true #代码自动换行，关闭滚动条
-highlight_height_limit: 300 # unit: px
+#highlight_theme: mac  #  darker / pale night / light / ocean / mac / mac light / false 代码主题
+#highlight_copy: true # 复制按钮
+#highlight_lang: true # 是否显示代码语言
+#highlight_shrink: true # true: 代码块默认不展开 / false: 代码块默认展开 | none: 展开并隐藏折叠按钮
+#code_word_wrap: true #代码自动换行，关闭滚动条
+#highlight_height_limit: 300 # unit: px
 # Local search 搜索
 local_search:
   enable: true
@@ -29,7 +29,8 @@ local_search:
     input_placeholder: Search for Posts
     hits_empty: "没有找到与： ${query} 相关内容" # 如果没有查到内容相关内容显示
 
-
+aplayer:
+  meting: true
 # the subtitle on homepage (主頁subtitle)
 subtitle:
   enable: true
@@ -363,3 +364,35 @@ preloader:
   pace_css_url: /img/1.gif
 
 photofigcaption: true
+
+douban:
+  user: 275624377
+  builtin: false
+  book:
+    title: 'This is my book title'
+    quote: 'This is my book quote'
+    meta: true
+    comments: true
+    top_img: https://cccccc.png
+    aside: true
+    path: books
+    limit:
+  movie:
+    title: 'This is my movie title'
+    quote: 'This is my movie quote'
+    meta: true
+    comments: true
+    top_img: https://cccccc.png
+    aside: true
+    path: movies
+    limit:
+  game:
+    title: 'This is my game title'
+    quote: 'This is my game quote'
+    meta: true
+    comments: true
+    top_img: https://cccccc.png
+    aside: true
+    path: games
+    limit:
+  timeout: 10000
