@@ -11,8 +11,8 @@ date: 2029-1-24 17:09:10
 <div id="artitalk_main"></div>
 <script>
 new Artitalk({
-    appId: 'H5uDbNpEu1fJcVIlpdRDWLEw-gzGzoHsz',
-    appKey: 'pXjk8QIq7J8jth475GTpYTHl',
+    appId: '1Ao0DXuUM7IhIjk87ljhWZt8-MdYXbMMI',
+    appKey: '8YfzySzsghm2Pyiy142iADCa',
     color1: '#64b5f6',
     color2: '#66bb6a',
     color3: '#f9a825',
