@@ -3,7 +3,7 @@ title:
 date: 2019-10-31 09:32:24
 ---
 
-{% gallery true,256,20 %}
+{% gallery true,100,20 %}
 ![flower3](flower3.jpg)
 
 ![flower4](flower4.jpg)
