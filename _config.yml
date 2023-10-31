@@ -13,12 +13,12 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://hexo.asteroidrocket.top/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: true # 设置为false将从永久链接中删除尾随的'index.html'
+  trailing_html: true # 设置为false将从永久链接中删除尾随的'.html'
 
 # Directory
 source_dir: source
@@ -31,12 +31,12 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :title.md # 新帖子的文件名
 default_layout: post
-titlecase: false # Transform title into titlecase
+titlecase: false # 将title转换为titlecase
 external_link:
-  enable: true # Open external links in new tab
-  field: site # Apply to the whole site
+  enable: true # 在新选项卡中打开外部链接
+  field: site # 适用于整个站点
   exclude: ''
 filename_case: 0
 render_drafts: false
@@ -44,20 +44,31 @@ post_asset_folder: false
 relative_link: false
 future: true
 
+#highlight:
+#  enable: false
+#  line_number: false
+#  auto_detect: false
+
+# 代码高亮配置文件
 highlight:
   enable: false
   line_number: false
   auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: true
+prismjs:
+  enable: true
+  preprocess: true
+  line_number: true
+  line_threshold: 0
+  tab_replace: ''
 
 lazyload:
   enable: true
   loadingImg: /img/19.gif
   isSPA: true
-#prismjs:
-#  enable: false
-#  preprocess: true
-#  line_number: true
-#  tab_replace: ''
+
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -102,12 +113,11 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 #theme: fluid
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: 'https://github.com/runbrick/javier-blog.git'
+  repo: 'https://github.com/AsteroidQiao/hexo.git'
   branch: 'master'
 
 

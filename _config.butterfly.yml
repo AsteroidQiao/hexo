@@ -1,14 +1,13 @@
 # 导航菜单
 menu:
   主页: / || fas fa-home
-  博文 || fa fa-graduation-cap:
+  目录 || fa-fw fas fa-book:
     分类: /categories/ || fa fa-archive
     标签: /tags/ || fa fa-tags
     归档: /archives/ || fa fa-folder-open
-  生活 || fas fa-list:
-    分享: /share/ || fa-regular fa-calendar
+  娱乐 || fas fa-list:
+    说说: /share/ || fa-regular fa-calendar
     相册: /imgs/ || fa fa-camera-retro
-    音乐: /music/ || fa fa-music
     影视: /video/ || fas fa-video
   友链: /link/ || fa fa-link
   留言板: /comment/ || fa fa-paper-plane
@@ -31,21 +30,18 @@ local_search:
     input_placeholder: Search for Posts
     hits_empty: "没有找到与： ${query} 相关内容" # 如果没有查到内容相关内容显示
 
-aplayer:
-  meting: true
 # the subtitle on homepage (主頁subtitle)
 subtitle:
   enable: true
   # Typewriter Effect (开启打字效果)
   effect: true
-  # loop (循环)
   loop: true
+  source: 1
   # source: 1  調用搏天api的隨機語錄（簡體）
   # source: 2  調用一言網的一句話（簡體）
   # source: 3  調用一句網（簡體）
   # source: 4  調用今日詩詞（簡體）
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: 1
   # 如果关闭打字效果，subtitle只会现示sub的第一行文字
 #  sub:
 #    - 你在抱怨什么呢
@@ -161,8 +157,9 @@ post_meta:
 #文章编辑
 post_edit:
   enable: true
-  url: https://github.com/AsteroidQiao/hexo/tree/master/source/_posts
-
+  url: https://github.com/AsteroidQiao/hexo/tree/master/source/
+#url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source
+#url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
@@ -367,34 +364,4 @@ preloader:
 
 photofigcaption: true
 
-douban:
-  user: 275624377
-  builtin: false
-  book:
-    title: 'This is my book title'
-    quote: 'This is my book quote'
-    meta: true
-    comments: true
-    top_img: https://cccccc.png
-    aside: true
-    path: books
-    limit:
-  movie:
-    title: 'This is my movie title'
-    quote: 'This is my movie quote'
-    meta: true
-    comments: true
-    top_img: https://cccccc.png
-    aside: true
-    path: movies
-    limit:
-  game:
-    title: 'This is my game title'
-    quote: 'This is my game quote'
-    meta: true
-    comments: true
-    top_img: https://cccccc.png
-    aside: true
-    path: games
-    limit:
-  timeout: 10000
+
