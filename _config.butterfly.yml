@@ -6,7 +6,7 @@ menu:
     标签: /tags/ || fa fa-tags
     归档: /archives/ || fa fa-folder-open
   娱乐 || fas fa-list:
-    说说: /share/ || fa-regular fa-calendar
+    说说: /shuoshuo/ || fa-regular fa-calendar
     相册: /imgs/ || fa fa-camera-retro
     影视: /video/ || fas fa-video
   友链: /link/ || fa fa-link
@@ -329,6 +329,7 @@ pjax:
   exclude:
     - /music/
     - /no-pjax/
+    - /shuoshuo/
 
 nofollow:
   enable: true
@@ -364,4 +365,12 @@ preloader:
 
 photofigcaption: true
 
-
+## Artitalk
+#artitalk:
+#  enable: true
+#  appId: H5uDbNpEu1fJcVIlpdRDWLEw-gzGzoHsz
+#  appKey: pXjk8QIq7J8jth475GTpYTHl
+#  path:
+#  js:
+#  option:
+#  front_matter:
