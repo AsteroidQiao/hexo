@@ -7,7 +7,7 @@ menu:
     归档: /archives/ || fa fa-folder-open
   生活 || fas fa-list:
     分享: /share/ || iconfont icon-life
-    相册: /imgs/ || fa fa-camera-retro
+    相册: /Gallery/ || fa fa-camera-retro
     音乐: /music/ || fa fa-music
     影视: /video/ || fas fa-video
   友链: /link/ || fa fa-link
