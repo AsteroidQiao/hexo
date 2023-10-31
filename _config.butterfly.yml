@@ -255,7 +255,7 @@ runtimeshow:
 error_404:
   enable: true
   subtitle: "页面未找到"
-  background: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1698691762397404.jpg
+  background: /img/404.jpg
 error_img:
 #  flink: /img/friend_404.gif
   post_page: /img/404.jpg
