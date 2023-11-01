@@ -124,29 +124,29 @@ deploy:
 
 
 douban:
-  id: 162448367
+  id: 275624377
   builtin: false
   item_per_page: 10
   meta_max_line: 4
   customize_layout: page
   book:
     path: books/index.html
-    title: 'This is my book title'
-    quote: 'This is my book quote'
+    title: '图书列表'
+    quote: '多读书、多看报、少吃零食、多睡觉'
     option:
   movie:
     path: movies/index.html
-    title: '影视'
+    title: '影视列表'
     quote: '能不生气就不要生气，能不骂人就不要骂人，能动手就直接动手。'
     option:
   game:
     path: games/index.html
-    title: 'This is my game title'
-    quote: 'This is my game quote'
+    title: '游戏列表'
+    quote: '最好的剑，永远是下一把'
     option:
   song:
     path: songs/index.html
-    title: 'This is my song title'
-    quote: 'This is my song quote'
+    title: '音乐列表'
+    quote: '我的音乐'
     option:
   timeout: 10000
