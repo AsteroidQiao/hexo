@@ -120,29 +120,29 @@ theme: butterfly
 deploy:
   type: 'git'
   repo: 'https://github.com/AsteroidQiao/hexo.git'
-  branch: 'master'
+  branch: 'main'
 
 
 douban:
   id: 275624377
   builtin: false
-  item_per_page: 10
-  meta_max_line: 4
-  customize_layout: page
   book:
-    path: books/index.html
+    path: /about/books/index.html
     title: '图书列表'
     quote: '多读书、多看报、少吃零食、多睡觉'
+    comments: false
     option:
   movie:
     path: movies/index.html
     title: '影视列表'
     quote: '能不生气就不要生气，能不骂人就不要骂人，能动手就直接动手。'
+    comments: false
     option:
   game:
     path: games/index.html
     title: '游戏列表'
     quote: '最好的剑，永远是下一把'
+    comments: false
     option:
   song:
     path: songs/index.html
