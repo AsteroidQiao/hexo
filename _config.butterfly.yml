@@ -103,10 +103,6 @@ reward:
       link:
       text: 支付宝
 
-    - img: /img/QQ.png
-      link:
-      text: QQ
-
 ##侧边栏样式
 #aside:
 #  enable: true
@@ -309,6 +305,7 @@ inject:
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4308968_80bv1i0prcd.css">
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AsteroidQiao/config/mouse.css">
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AsteroidQiao/config/background.css">
+    - <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
     - <meta name="referrer" content="no-referrer">
   #    - <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
 #    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css">
@@ -343,29 +340,54 @@ nofollow:
 #评论
 comments:
   # 最多两个评论系统，第一个将显示为默认值
-  use: Valine,Livere
+  use: waline,valine
   text: true # Display the comment name next to the button
   lazyload: true
   count: true # Display comment count in top_img
   card_post_count: false # Display comment count in Home Page
-
+#1
 valine:
   appId: sVfjEnMCEjipgBODMprxJDyJ-gzGzoHsz
   appKey: cxX6XI7ITp1UUvWtVGzBFvv5
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: # valine background
+  bg: /img/lazyload4.gif
   visitor: false
   option:
-
+#2
+waline:
+  serverURL: https://waline.asteroidrocket.top/
+  bg: /img/lazyload9.webp
+  pageview: false
+  emoji:
+    - https://unpkg.com/@waline/emojis@1.2.0/weibo
+    - https://unpkg.com/@waline/emojis@1.2.0/alus
+    - https://unpkg.com/@waline/emojis@1.2.0/bilibili
+    - https://unpkg.com/@waline/emojis@1.2.0/qq
+  placeholder:
+    评论时填写邮箱，或者注册并登录后评论，即可在第一时间收到消息提醒。
+  reactionTitle:
+    #反应表情的文章描述
+    reaction0: 爱你哟
+    reaction1: oh~~
+    reaction2: 嘚瑟~
+    reaction3: 无语
+    #反应表情组
+    reaction:
+      - https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_heart_eyes.png
+      - https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_dog_joy.png
+      - https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_dog_consider.png
+      - https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_sob.png
+  option:
+#3
 livere:
   uid: MTAyMC81OTE0NS8zNTYwNw==
+
 # 懒加载 加载动画
 preloader:
   enable: false
   source: 1
   pace_css_url: /img/1.gif
-
 photofigcaption: true
 
 ## Artitalk
