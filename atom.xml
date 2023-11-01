@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>成大事的小站</title>
+  <icon>https://hexo.asteroidrocket.top/icon.png</icon>
+  <subtitle>AsteroidQiao</subtitle>
+  <link href="https://hexo.asteroidrocket.top/atom.xml" rel="self"/>
+  
+  <link href="https://hexo.asteroidrocket.top/"/>
+  <updated>2023-11-01T15:13:48.446Z</updated>
+  <id>https://hexo.asteroidrocket.top/</id>
+  
+  <author>
+    <name>成大事</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My New Post</title>
+    <link href="https://hexo.asteroidrocket.top/2023/10/31/My-New-Post/"/>
+    <id>https://hexo.asteroidrocket.top/2023/10/31/My-New-Post/</id>
+    <published>2023-10-30T19:03:39.000Z</published>
+    <updated>2023-11-01T15:13:48.446Z</updated>
+    
+    
+    
+    
+    
+    <category term="其他" scheme="https://hexo.asteroidrocket.top/tags/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux安装mysql5</title>
+    <link href="https://hexo.asteroidrocket.top/2023/10/12/Linux%E5%AE%89%E8%A3%85mysql5/"/>
+    <id>https://hexo.asteroidrocket.top/2023/10/12/Linux%E5%AE%89%E8%A3%85mysql5/</id>
+    <published>2023-10-12T08:05:31.000Z</published>
+    <updated>2023-11-01T15:13:48.439Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;Linux安装mysql5&lt;/h1&gt;
+&lt;h2 id=&quot;一、下载mysql安装包&quot;&gt;一、下载mysql安装包&lt;/h2&gt;
+&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    
+    <category term="mysql" scheme="https://hexo.asteroidrocket.top/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>alist配置</title>
+    <link href="https://hexo.asteroidrocket.top/2023/07/31/alist%E9%85%8D%E7%BD%AE/"/>
+    <id>https://hexo.asteroidrocket.top/2023/07/31/alist%E9%85%8D%E7%BD%AE/</id>
+    <published>2023-07-31T01:33:25.000Z</published>
+    <updated>2023-11-01T15:13:48.442Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Alist-RaiDrive挂载阿里云盘&quot;&gt;Alist+RaiDrive挂载阿里云盘&lt;/h2&gt;
+&lt;p&gt;记录挂载阿里云盘，alist加阿里云盘实在太香了~&lt;/p&gt;
+&lt;p&gt;Alist + RaiDrive 实现网盘挂载，Alist可以添加很多类型网盘，&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="alist" scheme="https://hexo.asteroidrocket.top/tags/alist/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo 常用命令</title>
+    <link href="https://hexo.asteroidrocket.top/2019/09/22/hexo-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>https://hexo.asteroidrocket.top/2019/09/22/hexo-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
+    <published>2019-09-22T03:39:57.000Z</published>
+    <updated>2023-11-01T15:13:48.448Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;前言:&lt;/h3&gt;
+&lt;p&gt;为了方便查阅,这里将常用指令汇总.&lt;/p&gt;
+&lt;h3 id=&quot;简写指令&quot;&gt;简写指令:&lt;/h3&gt;
+&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="https://hexo.asteroidrocket.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://hexo.asteroidrocket.top/2019/09/18/hello-world/"/>
+    <id>https://hexo.asteroidrocket.top/2019/09/18/hello-world/</id>
+    <published>2019-09-18T06:03:39.000Z</published>
+    <updated>2023-11-01T15:13:48.444Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="其他" scheme="https://hexo.asteroidrocket.top/tags/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+</feed>

@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Linux安装mysql5 | 成大事的小站</title><meta name="author" content="成大事"><meta name="copyright" content="成大事"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Linux安装mysql5 一、下载mysql安装包 wget http:&#x2F;&#x2F;dev.mysql.com&#x2F;get&#x2F;mysql57-community-release-el7-8.noarch.rpm 二、安装mysql yum localinstall mysql57-community-release-el7-8.noarch.rpm  三、检测是否安装成功 yum repolist enabl">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Linux安装mysql5 | 成大事的小站</title><meta name="author" content="成大事"><meta name="copyright" content="成大事"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Linux安装mysql5 一、下载mysql安装包 wget http:&#x2F;&#x2F;dev.mysql.com&#x2F;get&#x2F;mysql57-community-release-el7-8.noarch.rpm 二、安装mysql yum localinstall mysql57-community-release-el7-8.noarch.rpm  三、检测是否安装成">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux安装mysql5">
 <meta property="og:url" content="https://hexo.asteroidrocket.top/2023/10/12/Linux%E5%AE%89%E8%A3%85mysql5/index.html">
 <meta property="og:site_name" content="成大事的小站">
-<meta property="og:description" content="Linux安装mysql5 一、下载mysql安装包 wget http:&#x2F;&#x2F;dev.mysql.com&#x2F;get&#x2F;mysql57-community-release-el7-8.noarch.rpm 二、安装mysql yum localinstall mysql57-community-release-el7-8.noarch.rpm  三、检测是否安装成功 yum repolist enabl">
+<meta property="og:description" content="Linux安装mysql5 一、下载mysql安装包 wget http:&#x2F;&#x2F;dev.mysql.com&#x2F;get&#x2F;mysql57-community-release-el7-8.noarch.rpm 二、安装mysql yum localinstall mysql57-community-release-el7-8.noarch.rpm  三、检测是否安装成">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://hexo.asteroidrocket.top/img/avatar.jpg">
 <meta property="article:published_time" content="2023-10-12T08:05:31.000Z">
-<meta property="article:modified_time" content="2023-10-31T08:07:11.964Z">
+<meta property="article:modified_time" content="2023-11-01T15:13:48.439Z">
 <meta property="article:author" content="成大事">
 <meta property="article:tag" content="mysql">
 <meta name="twitter:card" content="summary">
@@ -56,7 +56,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2023-10-31 16:07:11'
+  postUpdate: '2023-11-01 23:13:48'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -153,117 +153,118 @@
         }
       }
       detectApple()
-    })(window)</script><link rel="stylesheet" href="//at.alicdn.com/t/c/font_4308968_80bv1i0prcd.css"><meta name="referrer" content="no-referrer"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh//mouse.css"><link rel="stylesheet" href="/themes/butterfly/source/css/background.css"><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/19.gif" data-original="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fa-fw fas fa-book"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-list"></i><span> 空间</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa-regular fa-comment-dots"></i><span> 说说</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/imgs/"><i class="fa-fw fa-regular fa-image"></i><span> 相册</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://api.likepoems.com/img/pc/')"><nav id="nav"><span id="blog-info"><a href="/" title="成大事的小站"><span class="site-name">成大事的小站</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fa-fw fas fa-book"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-list"></i><span> 空间</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa-regular fa-comment-dots"></i><span> 说说</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/imgs/"><i class="fa-fw fa-regular fa-image"></i><span> 相册</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Linux安装mysql5<a class="post-edit-link" href="https://github.com/AsteroidQiao/hexo/tree/master/source/_posts/Linux安装mysql5.md" rel="external nofollow noreferrer" title="编辑" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2023-10-12T08:05:31.000Z" title="发表于 2023-10-12 16:05:31">2023-10-12</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">754</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>3分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Linux安装mysql5"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1>Linux安装mysql5</h1>
+    })(window)</script><link rel="stylesheet" href="//at.alicdn.com/t/c/font_4308968_80bv1i0prcd.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AsteroidQiao/config/mouse.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AsteroidQiao/config/background.css"><meta name="referrer" content="no-referrer"><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="成大事的小站" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/19.gif" data-original="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fa-fw fas fa-book"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-list"></i><span> 空间</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa-regular fa-comment-dots"></i><span> 说说</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/imgs/"><i class="fa-fw fa-regular fa-image"></i><span> 相册</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://api.likepoems.com/img/pc/')"><nav id="nav"><span id="blog-info"><a href="/" title="成大事的小站"><span class="site-name">成大事的小站</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fa-fw fas fa-book"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-list"></i><span> 空间</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa-regular fa-comment-dots"></i><span> 说说</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/imgs/"><i class="fa-fw fa-regular fa-image"></i><span> 相册</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Linux安装mysql5<a class="post-edit-link" href="https://github.com/AsteroidQiao/hexo/tree/master/source/_posts/Linux安装mysql5.md" rel="external nofollow noreferrer" title="编辑" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2023-10-12T08:05:31.000Z" title="发表于 2023-10-12 16:05:31">2023-10-12</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">947</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>4分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Linux安装mysql5"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1>Linux安装mysql5</h1>
 <h2 id="一、下载mysql安装包">一、下载mysql安装包</h2>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">wget</span> http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">wget http:&#x2F;&#x2F;dev.mysql.com&#x2F;get&#x2F;mysql57-community-release-el7-8.noarch.rpm<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <h2 id="二、安装mysql">二、安装mysql</h2>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum localinstall mysql57-community-release-el7-8.noarch.rpm <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <h2 id="三、检测是否安装成功">三、检测是否安装成功</h2>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum repolist enabled <span class="token operator">|</span> <span class="token function">grep</span> <span class="token string">"mysql.*-community.*"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum repolist enabled | grep &quot;mysql.*-community.*&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <h2 id="四、选择安装版本">四、选择安装版本</h2>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment">#进入此文件可以看到mysql5的各种版本</span>
-<span class="token comment">#其中enabled=1是选择安装，enabled=0是不安装，文件内默认为5.7</span>
-<span class="token function">vim</span> /etc/yum.repos.d/mysql-community.repo    <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">#进入此文件可以看到mysql5的各种版本
+#其中enabled&#x3D;1是选择安装，enabled&#x3D;0是不安装，文件内默认为5.7
+vim &#x2F;etc&#x2F;yum.repos.d&#x2F;mysql-community.repo    <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <h6 id="mysql-community-repo文件">mysql-community.repo文件</h6>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token punctuation">[</span>mysql-connectors-community<span class="token punctuation">]</span>
-<span class="token assign-left variable">name</span><span class="token operator">=</span>MySQL Connectors Community
-<span class="token assign-left variable">baseurl</span><span class="token operator">=</span>http://repo.mysql.com/yum/mysql-connectors-community/el/7/<span class="token variable">$basearch</span>/
-<span class="token assign-left variable">enabled</span><span class="token operator">=</span><span class="token number">1</span>
-<span class="token assign-left variable">gpgcheck</span><span class="token operator">=</span><span class="token number">1</span>
-<span class="token assign-left variable">gpgkey</span><span class="token operator">=</span>file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">[mysql-connectors-community]
+name&#x3D;MySQL Connectors Community
+baseurl&#x3D;http:&#x2F;&#x2F;repo.mysql.com&#x2F;yum&#x2F;mysql-connectors-community&#x2F;el&#x2F;7&#x2F;$basearch&#x2F;
+enabled&#x3D;1
+gpgcheck&#x3D;1
+gpgkey&#x3D;file:&#x2F;&#x2F;&#x2F;etc&#x2F;pki&#x2F;rpm-gpg&#x2F;RPM-GPG-KEY-mysql
 
-<span class="token punctuation">[</span>mysql-tools-community<span class="token punctuation">]</span>
-<span class="token assign-left variable">name</span><span class="token operator">=</span>MySQL Tools Community
-<span class="token assign-left variable">baseurl</span><span class="token operator">=</span>http://repo.mysql.com/yum/mysql-tools-community/el/7/<span class="token variable">$basearch</span>/
-<span class="token assign-left variable">enabled</span><span class="token operator">=</span><span class="token number">1</span>
-<span class="token assign-left variable">gpgcheck</span><span class="token operator">=</span><span class="token number">1</span>
-<span class="token assign-left variable">gpgkey</span><span class="token operator">=</span>file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
-<span class="token punctuation">[</span>mysql-connectors-community<span class="token punctuation">]</span>
-<span class="token assign-left variable">name</span><span class="token operator">=</span>MySQL Connectors Community
-<span class="token assign-left variable">baseurl</span><span class="token operator">=</span>http://repo.mysql.com/yum/mysql-connectors-community/el/7/<span class="token variable">$basearch</span>/
-<span class="token assign-left variable">enabled</span><span class="token operator">=</span><span class="token number">1</span>
-<span class="token assign-left variable">gpgcheck</span><span class="token operator">=</span><span class="token number">1</span>
-<span class="token assign-left variable">gpgkey</span><span class="token operator">=</span>file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+[mysql-tools-community]
+name&#x3D;MySQL Tools Community
+baseurl&#x3D;http:&#x2F;&#x2F;repo.mysql.com&#x2F;yum&#x2F;mysql-tools-community&#x2F;el&#x2F;7&#x2F;$basearch&#x2F;
+enabled&#x3D;1
+gpgcheck&#x3D;1
+gpgkey&#x3D;file:&#x2F;&#x2F;&#x2F;etc&#x2F;pki&#x2F;rpm-gpg&#x2F;RPM-GPG-KEY-mysql
+[mysql-connectors-community]
+name&#x3D;MySQL Connectors Community
+baseurl&#x3D;http:&#x2F;&#x2F;repo.mysql.com&#x2F;yum&#x2F;mysql-connectors-community&#x2F;el&#x2F;7&#x2F;$basearch&#x2F;
+enabled&#x3D;1
+gpgcheck&#x3D;1
+gpgkey&#x3D;file:&#x2F;&#x2F;&#x2F;etc&#x2F;pki&#x2F;rpm-gpg&#x2F;RPM-GPG-KEY-mysql
 
-<span class="token punctuation">[</span>mysql-tools-community<span class="token punctuation">]</span>
-<span class="token assign-left variable">name</span><span class="token operator">=</span>MySQL Tools Community
-<span class="token assign-left variable">baseurl</span><span class="token operator">=</span>http://repo.mysql.com/yum/mysql-tools-community/el/7/<span class="token variable">$basearch</span>/
-<span class="token assign-left variable">enabled</span><span class="token operator">=</span><span class="token number">1</span>
-<span class="token assign-left variable">gpgcheck</span><span class="token operator">=</span><span class="token number">1</span>
-<span class="token assign-left variable">gpgkey</span><span class="token operator">=</span>file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+[mysql-tools-community]
+name&#x3D;MySQL Tools Community
+baseurl&#x3D;http:&#x2F;&#x2F;repo.mysql.com&#x2F;yum&#x2F;mysql-tools-community&#x2F;el&#x2F;7&#x2F;$basearch&#x2F;
+enabled&#x3D;1
+gpgcheck&#x3D;1
+gpgkey&#x3D;file:&#x2F;&#x2F;&#x2F;etc&#x2F;pki&#x2F;rpm-gpg&#x2F;RPM-GPG-KEY-mysql
 
-<span class="token comment"># Enable to use MySQL 5.5</span>
-<span class="token punctuation">[</span>mysql55-community<span class="token punctuation">]</span>
-<span class="token assign-left variable">name</span><span class="token operator">=</span>MySQL <span class="token number">5.5</span> Community Server
-<span class="token assign-left variable">baseurl</span><span class="token operator">=</span>http://repo.mysql.com/yum/mysql-5.5-community/el/7/<span class="token variable">$basearch</span>/
-<span class="token assign-left variable">enabled</span><span class="token operator">=</span><span class="token number">0</span>
-<span class="token assign-left variable">gpgcheck</span><span class="token operator">=</span><span class="token number">1</span>
-<span class="token assign-left variable">gpgkey</span><span class="token operator">=</span>file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+# Enable to use MySQL 5.5
+[mysql55-community]
+name&#x3D;MySQL 5.5 Community Server
+baseurl&#x3D;http:&#x2F;&#x2F;repo.mysql.com&#x2F;yum&#x2F;mysql-5.5-community&#x2F;el&#x2F;7&#x2F;$basearch&#x2F;
+enabled&#x3D;0
+gpgcheck&#x3D;1
+gpgkey&#x3D;file:&#x2F;&#x2F;&#x2F;etc&#x2F;pki&#x2F;rpm-gpg&#x2F;RPM-GPG-KEY-mysql
 
-<span class="token comment"># Enable to use MySQL 5.6</span>
-<span class="token punctuation">[</span>mysql56-community<span class="token punctuation">]</span>
-<span class="token assign-left variable">name</span><span class="token operator">=</span>MySQL <span class="token number">5.6</span> Community Server
-<span class="token assign-left variable">baseurl</span><span class="token operator">=</span>http://repo.mysql.com/yum/mysql-5.6-community/el/7/<span class="token variable">$basearch</span>/
-<span class="token assign-left variable">enabled</span><span class="token operator">=</span><span class="token number">0</span>
-<span class="token assign-left variable">gpgcheck</span><span class="token operator">=</span><span class="token number">1</span>
-<span class="token assign-left variable">gpgkey</span><span class="token operator">=</span>file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+# Enable to use MySQL 5.6
+[mysql56-community]
+name&#x3D;MySQL 5.6 Community Server
+baseurl&#x3D;http:&#x2F;&#x2F;repo.mysql.com&#x2F;yum&#x2F;mysql-5.6-community&#x2F;el&#x2F;7&#x2F;$basearch&#x2F;
+enabled&#x3D;0
+gpgcheck&#x3D;1
+gpgkey&#x3D;file:&#x2F;&#x2F;&#x2F;etc&#x2F;pki&#x2F;rpm-gpg&#x2F;RPM-GPG-KEY-mysql
 
-<span class="token punctuation">[</span>mysql57-community<span class="token punctuation">]</span>
-<span class="token assign-left variable">name</span><span class="token operator">=</span>MySQL <span class="token number">5.7</span> Community Server
-<span class="token assign-left variable">baseurl</span><span class="token operator">=</span>http://repo.mysql.com/yum/mysql-5.7-community/el/7/<span class="token variable">$basearch</span>/
-<span class="token assign-left variable">enabled</span><span class="token operator">=</span><span class="token number">1</span>
-<span class="token assign-left variable">gpgcheck</span><span class="token operator">=</span><span class="token number">1</span>
-<span class="token assign-left variable">gpgkey</span><span class="token operator">=</span>file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+[mysql57-community]
+name&#x3D;MySQL 5.7 Community Server
+baseurl&#x3D;http:&#x2F;&#x2F;repo.mysql.com&#x2F;yum&#x2F;mysql-5.7-community&#x2F;el&#x2F;7&#x2F;$basearch&#x2F;
+enabled&#x3D;1
+gpgcheck&#x3D;1
+gpgkey&#x3D;file:&#x2F;&#x2F;&#x2F;etc&#x2F;pki&#x2F;rpm-gpg&#x2F;RPM-GPG-KEY-mysql
 
-<span class="token punctuation">[</span>mysql-tools-preview<span class="token punctuation">]</span>
-<span class="token assign-left variable">name</span><span class="token operator">=</span>MySQL Tools Preview
-<span class="token assign-left variable">baseurl</span><span class="token operator">=</span>http://repo.mysql.com/yum/mysql-tools-preview/el/7/<span class="token variable">$basearch</span>/
-<span class="token assign-left variable">enabled</span><span class="token operator">=</span><span class="token number">0</span>
-<span class="token assign-left variable">gpgcheck</span><span class="token operator">=</span><span class="token number">1</span>
-<span class="token assign-left variable">gpgkey</span><span class="token operator">=</span>file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
-<span class="token number">1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+[mysql-tools-preview]
+name&#x3D;MySQL Tools Preview
+baseurl&#x3D;http:&#x2F;&#x2F;repo.mysql.com&#x2F;yum&#x2F;mysql-tools-preview&#x2F;el&#x2F;7&#x2F;$basearch&#x2F;
+enabled&#x3D;0
+gpgcheck&#x3D;1
+gpgkey&#x3D;file:&#x2F;&#x2F;&#x2F;etc&#x2F;pki&#x2F;rpm-gpg&#x2F;RPM-GPG-KEY-mysql
+1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <h2 id="五、安装mysql">五、安装mysql</h2>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum <span class="token function">install</span> mysql-community-server 
-<span class="token comment">#直接这样安装5.7可能会报以下错误</span>
-<span class="token comment"># 若没有报以下错误直接跳过解决问题的命令</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">yum install mysql-community-server 
+#直接这样安装5.7可能会报以下错误
+# 若没有报以下错误直接跳过解决问题的命令<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <p><img src="/img/19.gif" data-original="https://img-blog.csdnimg.cn/0450ba8fe8864a61b20e772f87d9889c.png" alt="在这里插入图片描述"></p>
 <blockquote>
 <p>导致这样的原因是MySQL GPG 密钥已过期导致使用下方命令重新进行安装</p>
 </blockquote>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"> <span class="token comment"># 更新GPG秘钥</span>
- <span class="token comment">#安装mysql</span>
-<span class="token function">rpm</span> <span class="token parameter variable">--import</span> https://repo.mysql.com/RPM-GPG-KEY-mysql-2022 
-yum <span class="token function">install</span> mysql-community-server  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"> # 更新GPG秘钥
+ #安装mysql
+rpm --import https:&#x2F;&#x2F;repo.mysql.com&#x2F;RPM-GPG-KEY-mysql-2022 
+yum install mysql-community-server  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 <p><img src="/img/19.gif" data-original="https://img-blog.csdnimg.cn/0408a3070fb84f1caa0194596de8d40b.png" alt="安装成功"></p>
 <h2 id="六、开启mysql并设置自启">六、开启mysql并设置自启</h2>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 开启mysql服务</span>
- <span class="token comment"># 设置开机自启</span>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"># 开启mysql服务
+ # 设置开机自启
 systemctl start mysqld    
-systemctl <span class="token builtin class-name">enable</span> mysqld  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+systemctl enable mysqld  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 <h2 id="七、修改mysql的密码">七、修改mysql的密码</h2>
 <h3 id="7-1、mysql5-7">7.1、mysql5.7</h3>
 <h4 id="7-1-1、查看初始密码">7.1.1、查看初始密码</h4>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 在安装完mysql5.7后，会自动生成一个密码，使用下方命令可查看密码：</span>
-<span class="token function">grep</span> <span class="token string">'temporary password'</span> /var/log/mysqld.log   <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"># 在安装完mysql5.7后，会自动生成一个密码，使用下方命令可查看密码：
+grep &#39;temporary password&#39; &#x2F;var&#x2F;log&#x2F;mysqld.log   <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p><img src="/img/19.gif" data-original="https://img-blog.csdnimg.cn/23894edc47e74fb6940c68d1b6a5444e.png" alt="密码"></p>
 <h4 id="7-1-2、修改密码">7.1.2、修改密码</h4>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"> <span class="token comment"># 登录mysql 使用上方命令查看的密码进行登录</span>
-<span class="token comment"># 此处修改密码有限制规则  这里进行修改规则</span>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"> # 登录mysql 使用上方命令查看的密码进行登录
+# 此处修改密码有限制规则  这里进行修改规则
 
- <span class="token comment">#设置密码的长度为4位以上</span>
- <span class="token comment">#设置密码的简易程度最低</span>
- <span class="token comment">#修改root用户的密码为root</span>
-mysql <span class="token parameter variable">-uroot</span> <span class="token parameter variable">-p</span> 
-<span class="token builtin class-name">set</span> global <span class="token assign-left variable">validate_password_length</span><span class="token operator">=</span><span class="token number">4</span><span class="token punctuation">;</span>  
-<span class="token builtin class-name">set</span> global <span class="token assign-left variable">validate_password_policy</span><span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>    
-<span class="token builtin class-name">set</span> password <span class="token keyword">for</span> <span class="token string">'root'</span>@<span class="token string">'localhost'</span><span class="token operator">=</span>password<span class="token punctuation">(</span><span class="token string">'root'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+ #设置密码的长度为4位以上
+ #设置密码的简易程度最低
+ #修改root用户的密码为root
+mysql -uroot -p 
+set global validate_password_length&#x3D;4;  
+set global validate_password_policy&#x3D;0;    
+set password for &#39;root&#39;@&#39;localhost&#39;&#x3D;password(&#39;root&#39;);   <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <h3 id="7-2、mysql5-6">7.2、mysql5.6</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment">#跳过密码进行登录</span>
-<span class="token comment">#修改root用户的密码为root </span>
-mysql <span class="token parameter variable">-uroot</span> --skip-password 
-<span class="token builtin class-name">set</span> password <span class="token keyword">for</span> <span class="token string">'root'</span>@<span class="token string">'localhost'</span><span class="token operator">=</span>password<span class="token punctuation">(</span><span class="token string">'root'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">#跳过密码进行登录
+#修改root用户的密码为root 
+mysql -uroot --skip-password 
+set password for &#39;root&#39;@&#39;localhost&#39;&#x3D;password(&#39;root&#39;);  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 <h2 id="八、设置远程登录">八、设置远程登录</h2>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">GRANT ALL PRIVILEGES ON *.* TO <span class="token string">'root'</span>@<span class="token string">'%'</span> IDENTIFIED BY <span class="token string">'root'</span> WITH GRANT OPTION<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">GRANT ALL PRIVILEGES ON *.* TO &#39;root&#39;@&#39;%&#39; IDENTIFIED BY &#39;root&#39; WITH GRANT OPTION;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>::: tips<br>
 <strong>提示</strong><br>
 这是一个提示<br>
