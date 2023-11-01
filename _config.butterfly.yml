@@ -340,7 +340,7 @@ nofollow:
 #评论
 comments:
   # 最多两个评论系统，第一个将显示为默认值
-  use: waline,valine
+  use: waline
   text: true # Display the comment name next to the button
   lazyload: true
   count: true # Display comment count in top_img
@@ -351,7 +351,7 @@ valine:
   appKey: cxX6XI7ITp1UUvWtVGzBFvv5
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: /img/lazyload4.gif
+  bg: /img/lazyload2.gif
   visitor: false
   option:
 #2
