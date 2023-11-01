@@ -307,9 +307,9 @@ aplayerInject:
 inject:
   head:
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4308968_80bv1i0prcd.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AsteroidQiao/config/mouse.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AsteroidQiao/config/background.css">
     - <meta name="referrer" content="no-referrer">
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh//mouse.css">
-    - <link rel="stylesheet" href="/themes/butterfly/source/css/background.css">
   #    - <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
 #    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css">
   bottom:

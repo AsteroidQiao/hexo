@@ -1,7 +1,8 @@
 ---
 title: Linux安装mysql5
-date: 2023-10-12 16:05:31
 tags: mysql
+abbrlink: 51533
+date: 2023-10-12 16:05:31
 ---
 #  Linux安装mysql5
 
