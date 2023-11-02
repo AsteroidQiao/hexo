@@ -13,9 +13,9 @@ menu:
     影视: /about/movies/index.html || fas fa-video
     书籍: /about/books/index.html || fas fa-book
     游戏: /about/games/index.html || fa-solid fa-gamepad
+  好玩的: /fine/ || fa-solid fa-mug-hot
   友链: /link/ || fa fa-link
-  留言板: /comment/ || fa fa-paper-plane
-# 代码块显示设置
+# 代码块显示设置 fa fa-paper-plane
 
 highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false 代码主题
 highlight_copy: true # 复制按钮
