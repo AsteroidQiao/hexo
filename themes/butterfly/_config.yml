@@ -228,7 +228,7 @@ aside:
     enable: true
     description:
     button:
-      enable: true
+      enable: false
       icon: iconfont icon-bilibili
       text: 关注我
       link: https://space.bilibili.com/503400640
