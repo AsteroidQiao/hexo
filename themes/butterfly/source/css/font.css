@@ -2,9 +2,9 @@
 @font-face {
     font-family: 'iconfont';  /* Project id 4313130 */
     src:
-            url('//at.alicdn.com/t/c/font_4313130_un7kvy062m.woff2?t=1698909074504') format('woff2'),
-            url('//at.alicdn.com/t/c/font_4313130_un7kvy062m.woff?t=1698909074504') format('woff'),
-            url('//at.alicdn.com/t/c/font_4313130_un7kvy062m.ttf?t=1698909074504') format('truetype');
+            url('//at.alicdn.com/t/c/font_4313130_me8fawrm1n.woff2?t=1698915540303') format('woff2'),
+            url('//at.alicdn.com/t/c/font_4313130_me8fawrm1n.woff?t=1698915540303') format('woff'),
+            url('//at.alicdn.com/t/c/font_4313130_me8fawrm1n.ttf?t=1698915540303') format('truetype');
 }
 .iconfont {
     font-family: "iconfont" !important;
@@ -23,8 +23,8 @@
     content: "\e60c";
 }
 
-.icon-Bilibili:before {
-    content: "\e606";
+.icon-bilibili1:before {
+    content: "\e72a";
 }
 
 .icon-weibo:before {
