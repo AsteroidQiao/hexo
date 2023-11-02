@@ -8,7 +8,7 @@
       descr: 小行星Qiao，环游开始！！！
 
 - class_name: 网站
-  class_desc: 值得推荐的网站
+  class_desc: 推荐的网站
   link_list:
     - name: Youtube
       link: https://www.youtube.com/

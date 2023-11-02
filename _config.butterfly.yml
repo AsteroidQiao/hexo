@@ -9,11 +9,11 @@ menu:
     说说: /shuoshuo/ || fa-regular fa-comment-dots
     音乐: /music/ || fas fa-music
     相册: /imgs/ || fa-regular fa-image
-  友链: /link/ || fa fa-link
   分享 || fas fa-heart:
     影视: /about/movies/index.html || fas fa-video
     书籍: /about/books/index.html || fas fa-book
     游戏: /about/games/index.html || fa-solid fa-gamepad
+  友链: /link/ || fa fa-link
   留言板: /comment/ || fa fa-paper-plane
 # 代码块显示设置
 
@@ -167,7 +167,7 @@ social:
   iconfont icon-bilibili1: https://space.bilibili.com/503400640 || B站
   iconfont icon-weibo: https://weibo.com/asteroidqiao || 微博
   iconfont icon-email: mailto:2551845461@qq.com || Email
-  iconfont icon-rss: nono || RSS
+#  iconfont icon-rss: /atom.xml || RSS
 post_meta:
   page:
     date_type: created # created or updated or both 主页文章日期是创建日或者更新日或都显示
