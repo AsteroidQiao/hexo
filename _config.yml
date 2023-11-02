@@ -122,34 +122,35 @@ deploy:
   type: 'git'
   repo: 'https://github.com/AsteroidQiao/bloghexo.git'
   branch: 'main'
-
+#douban 豆瓣页面
 douban:
   id: 275624377
   builtin: false
-  book:
-    path: /source/about/books/index.html
-    title: '图书列表'
-    quote: '多读书、多看报、少吃零食、多睡觉'
-    comments: false
-    option:
+  item_per_page: 10
+  meta_max_line: 4
+  customize_layout: page
   movie:
-    path: /source/about/movies/index.html
+    path: /about/movies/index.html
     title: '影视列表'
     quote: '能不生气就不要生气，能不骂人就不要骂人，能动手就直接动手。'
-    comments: false
+    option:
+  book:
+    path: /about/books/index.html
+    title: '图书列表'
+    quote: '多读书、多看报、少吃零食、多睡觉。'
     option:
   game:
-    path: /source/about/games/index.html
+    path: /about/games/index.html
     title: '游戏列表'
     quote: '最好的剑，永远是下一把'
-    comments: false
     option:
   song:
-    path: /source/about/songs/index.html
+    path: /about/songs/index.html
     title: '音乐列表'
-    quote: '我的音乐'
+    quote: 'This is my song quote'
     option:
   timeout: 10000
+# RSS
 feed:
   enable: true
   type: atom

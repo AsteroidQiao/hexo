@@ -4,17 +4,17 @@ menu:
   文章 || fa-fw fas fa-book:
     分类: /categories/ || fa fa-archive
     标签: /tags/ || fa fa-tags
-    归档: /archives/ || fa fa-folder-open
+    归档: /archives/ || fa-solid fa-gamepad
   空间 || fas fa-list:
     说说: /shuoshuo/ || fa-regular fa-comment-dots
     音乐: /music/ || fas fa-music
     相册: /imgs/ || fa-regular fa-image
-    影视: /movies/ || fas fa-video
   友链: /link/ || fa fa-link
+  分享 || fas fa-heart:
+    影视: /about/movies/index.html || fas fa-video
+    书籍: /about/books/index.html || fas fa-book
+    游戏: /about/games/index.html || fa-solid fa-gamepad
   留言板: /comment/ || fa fa-paper-plane
-  #留言板: /messageboard/ || fa fa-paper-plane
-  关于笔者: /about/ || fas fa-heart
-
 # 代码块显示设置
 
 highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false 代码主题
@@ -131,12 +131,12 @@ aside:
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
   card_categories:
-    enable: true
+    enable: false
     limit: 4 # if set 0 will show all
     expand: none # none/true/false
     sort_order: # Don't modify the setting unless you know how it works
   card_tags:
-    enable: true
+    enable: false
     limit: 20 # if set 0 will show all
     color: false
     orderby: random # Order of tags, random/name/length

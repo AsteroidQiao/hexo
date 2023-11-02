@@ -1,8 +1,9 @@
 ---
 title: hexo 常用命令
-tags: hexo
 abbrlink: 32362
-date: 2019-09-22 11:39:57
+date: 2020-09-22 11:39:57
+categories: Hexo
+tags: hexo
 ---
 
 ### 前言:

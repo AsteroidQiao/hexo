@@ -1,7 +1,8 @@
 ---
 title: alist配置
-tags: alist
 abbrlink: 34872
+categories: 网盘
+tags: alist
 date: 2023-07-31 09:33:25
 ---
 ## Alist+RaiDrive挂载阿里云盘
