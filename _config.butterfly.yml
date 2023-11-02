@@ -153,10 +153,9 @@ post_meta:
 
 #文章编辑
 post_edit:
-  enable: true
+  enable: false
   url: https://github.com/AsteroidQiao/hexo/tree/master/source/
-#url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source
-#url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit
+
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
@@ -302,13 +301,11 @@ aplayerInject:
 
 inject:
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4308968_80bv1i0prcd.css">
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AsteroidQiao/config/mouse.css">
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AsteroidQiao/config/background.css">
-    - <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
+    - <link rel="stylesheet" href="/css/mouse.css">
+#    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AsteroidQiao/config/mouse.css">
+    - <link rel="stylesheet" href="/css/bg.css">
+#    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AsteroidQiao/config/background.css">
     - <meta name="referrer" content="no-referrer">
-  #    - <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
-#    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css">
   bottom:
     - <div class="aplayer no-destroy"
     - data-id="7767724632"
@@ -319,8 +316,6 @@ inject:
     - data-listfolded="true"
     - data-theme="#63bbd0"
     - data-autoplay="false"> </div>
-
-
 
 #当用户点击链接，通过ajax更新页面需要变化的部分，然后使用HTML5的pushState修改浏览器的URL地址。
 #这样可以不用重复加载相同的资源（css/js）， 从而提升网页的加载速度。
