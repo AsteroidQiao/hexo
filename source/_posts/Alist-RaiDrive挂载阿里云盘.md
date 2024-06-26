@@ -1,13 +1,15 @@
 ---
-title: alist配置
-abbrlink: 34872
-categories: 网盘
-tags: alist
+title: 🚀Alist+RaiDrive挂载阿里云盘
+categories: 配置
+tags: 网盘挂载
+sticky: 1
 date: 2023-07-31 09:33:25
+cover: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1699196452934wall7.png
 ---
+
 ## Alist+RaiDrive挂载阿里云盘
 
-记录挂载阿里云盘，alist加阿里云盘实在太香了~
+记录挂载阿里云盘，alist加阿里云盘实在太香了~`
 
 Alist + RaiDrive 实现网盘挂载，Alist可以添加很多类型网盘，[如阿里云盘](https://www.aliyundrive.com/drive)、百度云盘、天翼云盘等等
 

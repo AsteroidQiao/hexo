@@ -1,9 +1,9 @@
 ---
-title: hexo 常用命令
-abbrlink: 32362
+title: 📳hexo 常用命令
 date: 2020-09-22 11:39:57
-categories: Hexo
+categories: 开发
 tags: hexo
+cover: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161893321161716189331777.png
 ---
 
 ### 前言:
