@@ -1,9 +1,11 @@
 ---
-title: 🍊MYSQL总结
-date: 2024-05-20 15:31:46
+title: "\U0001F34AMYSQL总结"
 categories: 开发
 tags: mysql
-cover: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161904801141716190479461.png
+cover: >-
+  https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161904801141716190479461.png
+abbrlink: 25396
+date: 2024-05-20 15:31:46
 ---
 
 

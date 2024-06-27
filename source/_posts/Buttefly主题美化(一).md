@@ -1,9 +1,11 @@
 ---
-title: 🚣Buttefly主题美化(一)
-date: 2023-03-02 13:31:42
+title: "\U0001F6A3Buttefly主题美化(一)"
 categories: 美化
 tags: Buttefly
-cover: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161754241141716175423782.png
+cover: >-
+  https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161754241141716175423782.png
+abbrlink: 2893
+date: 2023-03-02 13:31:42
 ---
 
 ### 安装主题 (Github)

@@ -1,9 +1,11 @@
 ---
-title: 🍋MySQL本地安装
-date: 2024-06-11 11:19:48
+title: "\U0001F34BMySQL本地安装"
 categories: 开发
 tags: mysql
-cover: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17180775324071718077531593.png
+cover: >-
+  https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17180775324071718077531593.png
+abbrlink: 3575
+date: 2024-06-11 11:19:48
 ---
 # 超级详细的mysql本地安装指南
 

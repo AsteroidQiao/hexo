@@ -109,7 +109,13 @@ pagination_dir: page
 include:
 exclude:
 ignore:
-
+# Inject
+# Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
+# 插入代码到头部 </head> 之前 和 底部 </body> 之前
+inject:
+  head:
+    - <meta name="referrer" content="no-referrer">
+  bottom:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -120,42 +126,37 @@ theme: butterfly
 #静态资源上传
 deploy:
   type: 'git'
-  repo: 'https://github.com/AsteroidQiao/bloghexo.git'
+  repo: 'https://github.com/AsteroidQiao/hexo.git'
   branch: 'main'
 #douban 豆瓣页面
 douban:
-  id: 275624377
-  builtin: false
+  user: 275624377
+  builtin: true
   movie:
-    path: /about/movies/index.html
     title: '影视列表'
     quote: '能不生气就不要生气，能不骂人就不要骂人，能动手就直接动手。'
     top_img: false
     aside: false
     option:
   book:
-    path: /about/books/index.html
     title: '图书列表'
     quote: '多读书、多看报、少吃零食、多睡觉。'
     top_img: false
     aside: false
     option:
   game:
-    path: /about/games/index.html
     title: '游戏列表'
     quote: '最好的剑，永远是下一把'
     top_img: false
     aside: false
     option:
   song:
-    path: /about/songs/index.html
     title: '音乐列表'
     quote: '我见过天使，遇过魔鬼，亲爱的，你到底是谁'
     top_img: false
     aside: false
     option:
   timeout: 10000
-
 # RSS
 feed:
   type: atom

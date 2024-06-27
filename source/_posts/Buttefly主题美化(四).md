@@ -1,9 +1,11 @@
 ---
-title: 🏊Buttefly主题美化(四)
-date: 2023-03-09 13:32:22
+title: "\U0001F3CAButtefly主题美化(四)"
 categories: 美化
 tags: Buttefly
-cover: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161754241141716175423782.png
+cover: >-
+  https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161754241141716175423782.png
+abbrlink: 21584
+date: 2023-03-09 13:32:22
 ---
 
 ### 评论样式

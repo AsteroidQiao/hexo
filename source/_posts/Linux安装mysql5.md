@@ -1,9 +1,11 @@
 ---
-title: 🍉Linux安装mysql5
-date: 2022-10-12 16:05:31
+title: "\U0001F349Linux安装mysql5"
 categories: 开发
 tags: mysql
-cover: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161896821131716189681529.png
+cover: >-
+  https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161896821131716189681529.png
+abbrlink: 32989
+date: 2022-10-12 16:05:31
 ---
 
 ## 一、下载mysql安装包

@@ -1,6 +1,5 @@
 ---
-title: 🍌Redis笔记
-date: 2024-05-20 15:38:11
+title: "\U0001F34CRedis笔记"
 categories: 开发
 tags: redis
 password: snsoft123
@@ -8,7 +7,10 @@ abstract: 本篇文章已加密，需要输入密码查看
 message: 本篇文章已加密，需要输入密码查看
 wrong_pass_message: 这个密码看着不太对，再试试
 wrong_hash_message: 这个文章不能被纠正，不过还是能看看解密后的内容
-cover: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161908811151716190880577.png
+cover: >-
+  https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161908811151716190880577.png
+abbrlink: 30400
+date: 2024-05-20 15:38:11
 ---
 # Redis笔记
 

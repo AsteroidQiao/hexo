@@ -1,6 +1,5 @@
 ---
-title: 🚂JS监听及使用
-date: 2024-05-20 10:09:02
+title: "\U0001F682JS监听及使用"
 tags: snsoft
 category: 开发
 password: snsoft123
@@ -8,7 +7,10 @@ abstract: 本篇文章已加密，需要输入密码查看
 message: 本篇文章已加密，需要输入密码查看
 wrong_pass_message: 这个密码看着不太对，再试试
 wrong_hash_message: 这个文章不能被纠正，不过还是能看看解密后的内容
-cover: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161710589721716171058571.png
+cover: >-
+  https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161710589721716171058571.png
+abbrlink: 61863
+date: 2024-05-20 10:09:02
 ---
 
 南北有一套自己的客户端框架xjs,特点是通过按规则编写java代码，然后使用底层提供java2js工具

@@ -1,9 +1,11 @@
 ---
-title: 🍍XML敏感字符
-date: 2024-05-20 13:48:40
+title: "\U0001F34DXML敏感字符"
 categories: 开发
 tags: 敏感字符
-cover: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161842071141716184206438.png
+cover: >-
+  https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17161842071141716184206438.png
+abbrlink: 53448
+date: 2024-05-20 13:48:40
 ---
 
 一共有五个：
